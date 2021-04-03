@@ -12,7 +12,7 @@
         integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!--Header-->
@@ -57,7 +57,7 @@
         <section class="hero">
             <div class="container hero__container">
             <h1 class="hero__container-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-modal-btn" type="button" data-modal-open>Заказать услугу</button>
+            <button class="modal-button hero__btn" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!--About us-->
@@ -353,7 +353,7 @@
                     </address>
                 </div>
                 <div class="middle-part-wrapper">
-                    <b class="wrapper-heading">присоединяйтесь</b>
+                    <b class="middle-part-wrapper__heading">присоединяйтесь</b>
                     <ul class="social-links-list list">
                         <li class="social-links-list__item">
                             <a class="social-links-list__link social-links-list__link_dark" href="">
@@ -386,12 +386,12 @@
                     </ul>
                 </div>
                 <div class="right-part-wrapper">
-                    <b class="wrapper-heading">подпишитесь на рассылку</b>
+                    <b class="right-part-wrapper__heading">подпишитесь на рассылку</b>
                     <form class="form" autocomplete="off">
                         <input type="email" name="email" class="form__input" placeholder="E-mail" required>
-                        <button type="submit" class="subscribe-btn">
-                            <span class="subscribe-btn__text">Подписаться</span>
-                            <svg class="subscribe-btn__icon" width="24" height="24">
+                        <button type="submit" class="modal-button form__subscribe-btn">
+                            Подписаться
+                            <svg class="form__subscribe-btn-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg>
                         </button>
@@ -441,7 +441,7 @@
                     </label>
                     <input type="checkbox" name="user-term-agreement" class="modal-form__term-agreement visually-hidden" id="user-check" >
                     <label for="user-check" class="modal-form__check-desc">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="modal-form__term-link" href="">Условия договора</a></label>
-                    <button type="submit" class="modal-form__btn">Отправить</button>
+                    <button type="submit" class="modal-button modal-form__btn">Отправить</button>
                 </form>
             </div>
         </div>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
         integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!--Header-->
@@ -217,7 +217,7 @@
             </address>
         </div>
         <div class="middle-part-wrapper">   
-            <b class="wrapper-heading">присоединяйтесь</b>
+            <b class="middle-part-wrapper__heading">присоединяйтесь</b>
             <ul class="social-links-list list">
                 <li class="social-links-list__item">
                     <a class="social-links-list__link social-links-list__link_dark" href="">
@@ -250,12 +250,12 @@
             </ul>
         </div>
         <div class="right-part-wrapper">
-            <b class="wrapper-heading">подпишитесь на рассылку</b>
+            <b class="right-part-wrapper__heading">подпишитесь на рассылку</b>
             <form class="form" autocomplete="off">
                 <input type="email" name="email" class="form__input" placeholder="E-mail" required>
-                <button type="submit" class="subscribe-btn">
-                    <span class="subscribe-btn__text">Подписаться</span>
-                    <svg class="subscribe-btn__icon" width="24" height="24">
+                <button type="submit" class="modal-button form__subscribe-btn">
+                   Подписаться
+                    <svg class="form__subscribe-btn-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-send"></use>
                     </svg>
                 </button>
